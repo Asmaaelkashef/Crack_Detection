@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+env/
+venv/
+*.log
+
+# Model Files
+*.pt
+*.h5
+*.onnx
+*.tflite
+*.ckpt
+
+# YOLO & Outputs
+runs/
+weights/
+results/
+*.jpg
+*.png
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/
